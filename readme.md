@@ -1,19 +1,19 @@
-# wait-for-enter [![Build Status](https://travis-ci.org/vadimdemedes/wait-for-enter.svg?branch=master)](https://travis-ci.org/vadimdemedes/wait-for-enter)
+# wait-for-enter
 
-> Wait until user presses Enter
+> Wait until user presses Enter or Cancel
 
 
 ## Install
 
 ```
-$ npm install wait-for-enter
+$ npm install cancelable-wait-for-enter
 ```
 
 
 ## Usage
 
 ```js
-const waitForEnter = require('wait-for-enter');
+const waitForEnter = require('cancelable-wait-for-enter');
 
 await waitForEnter();
 // User pressed Enter
@@ -22,4 +22,4 @@ await waitForEnter();
 
 ## License
 
-MIT © [Vadim Demedes](https://github.com/vadimdemedes)
+MIT
