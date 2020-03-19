@@ -10,7 +10,7 @@ module.exports = () => {
 		}
 
 		const onData = data => {
-			if (data.toString() === '\r') {
+			if (data.toString() === '\r' || data.readInt8() === 3) {
 				if (!wasAlreadyRaw) {
 					process.stdin.setRawMode(false);
 					process.stdin.pause();
