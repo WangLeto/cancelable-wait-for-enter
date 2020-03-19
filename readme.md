@@ -15,8 +15,9 @@ $ npm install cancelable-wait-for-enter
 ```js
 const waitForEnter = require('cancelable-wait-for-enter');
 
-await waitForEnter();
-// User pressed Enter
+waitForEnter()
+.then() // User pressed Enter
+.catch() // User canceled
 ```
 
 
