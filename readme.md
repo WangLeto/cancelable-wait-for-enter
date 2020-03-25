@@ -1,4 +1,4 @@
-# wait-for-enter
+# cancelable-wait-for-enter
 
 > Wait until user presses Enter or Cancel
 
